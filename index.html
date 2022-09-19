@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>GitHub profile App</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h3>GitHub Profile App</h3>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <input type="text" placeholder="Search GitHub username.." class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Main Section -->
+        <div class="github loading">
+
+            <img src="https://avatars.githubusercontent.com/u/89848148?v=4" alt="" class="profile-picture">
+
+            <div class="info">
+                <div class="name">Ramin Mikayilov</div>
+                <div class="login">RaminMikayilov</div>
+                <div class="bio">FrontEnd Developer</div>
+
+                <div class="d-grid-3">
+                    <div class="repo-section">
+                        <div class="repos">Repos</div>
+                        <div class="repos-number">6</div>
+                    </div>
+                    <div class="follower-section">
+                        <div class="follower">Followers</div>
+                        <div class="follower-number">7</div>
+                    </div>
+                    <div class="following-section">
+                        <div class="following">Following</div>
+                        <div class="following-number">8</div>
+                    </div>
+                </div>
+
+                <div class="d-grid-2">
+                    <div class="location-section">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="location"></span>
+                    </div>
+                    <div class="company-section">
+                        <i class="fa-solid fa-building"></i>
+                        <span class="company"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Error Section -->
+        <div class="error">
+            <i class="fa-regular fa-circle-xmark"></i>
+            Username not found
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
