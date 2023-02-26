@@ -54,5 +54,5 @@ input.addEventListener("keypress", (event) => {
     }
 });
 
-// My accout
+// My account
 getData('raminmikayilov');
