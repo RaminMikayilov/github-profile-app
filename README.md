@@ -8,15 +8,20 @@ This is a JavaScript application that uses the GitHub API to display information
 - Shows the user's repositories
 - Displays the user's followers
 
-
 ## Installation
 
 To use this app, simply download or clone the repository to your local machine and open the index.html file in your web browser.
 
 Alternatively, you can also access the live demo of the app [here](https://rm-githhub-profile-app.netlify.app/)
 
-
 ## Technologies Used
+
+This application was built using:
+
+- HTML
+- CSS
+- JavaScript
+- GitHub API
 
 ## Contributing
 
@@ -28,8 +33,6 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch (git push origin feature/your-feature-name)
 5. Create a new pull request
 
-
 ## License
 
 This project is licensed under the MIT License - [MIT](https://choosealicense.com/licenses/mit/)
-
