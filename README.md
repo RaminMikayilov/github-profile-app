@@ -2,6 +2,8 @@
 
 This is a JavaScript application that uses the GitHub API to display information about a user's profile on GitHub.
 
+![screenshot](./img/screenshot.png)
+
 ## Features
 
 - Displays basic information about the user such as their name, username, bio, and profile picture
